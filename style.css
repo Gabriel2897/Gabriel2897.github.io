@@ -1,0 +1,108 @@
+header {
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-tecnologico-azul-abstracto_52683-12538.jpg?w=900&t=st=1675115860~exp=1675116460~hmac=d19b7d0c9898f5cc64b15e092671bd0e4e18206eb0ce93c86c27c8d5ca5e99f0);
+  background-size: 100%;
+  border-bottom: 5px solid grey;
+  padding: 15px 0;
+  margin: -8px;
+  overflow: hidden;
+
+}
+
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+  background-color: hsl(240deg 8% 93%);
+}
+
+#container_1 {
+  max-width: 850px;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+
+header figure {
+  float: left;
+}
+
+header figure img {
+  border-radius: 50px;
+  border: solid white;
+  height: 150px;
+  width: 150px;
+  position: relative;
+}
+
+h1 {
+  float: left;
+}
+
+#main1 {
+  float: left;
+  border: 10px;
+  padding: 15px;
+  margin: 15px;
+  width: 45%;
+}
+
+h2 {
+  float: left;
+}
+hr{
+  margin-top: -10px;
+}
+
+#cv {
+  width: 70px;
+  height: 67px;
+  float: left;
+  rotate: 20deg;
+}
+
+#main2 {
+  float: right;
+  border: 10px;
+  padding: 15px;
+  margin: 15px;
+  width: 45%;
+}
+
+footer {
+  background-color: rgb(224, 240, 238);
+  border: solid 2px;
+  border-color: black;
+  padding: 5px;
+  margin: 5px;
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  clear: both;
+  transition: width 2s;
+}
+
+footer:hover {
+  width: 100%;
+}
+
+.fa-brands {
+  margin: 5px;
+  padding: 2px;
+}
+
+button {
+  float: right;
+  padding: 5px;
+  cursor: pointer;
+}
+button:hover{
+  cursor: pointer;
+  background-color: beige;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  border: 5px;
+  margin-bottom: -12px;
+}
